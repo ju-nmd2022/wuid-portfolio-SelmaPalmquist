@@ -1,0 +1,25 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+* {
+    color: rgb(200, 214, 149) ;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr 5fr;
+    font-size: 20px;
+    margin-left: 200px;
+}
+
+.logo{
+    float: left;
+}
+
+
+
+h1 {
+    color: rgb(200, 214, 149);
+    font-size: 50px
+}
+
