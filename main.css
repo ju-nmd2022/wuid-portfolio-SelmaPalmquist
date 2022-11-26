@@ -29,6 +29,7 @@ h1 {
     grid-template-columns: 3fr 3fr 2fr;
     font-size: 20px;
     margin-left: 170px;
+    color: aliceblue;
 }
 
 .oil-acrylics {
@@ -57,45 +58,41 @@ h1 {
 }
 
 .pen-drawings{
-    display: grid;
-    grid-template-columns: 210px 350px 210px 370px 100px;
-    margin-left: 70px;
-    margin-right: 70px;
+    display: flex;
+    width: 100vw;
+   justify-content: space-evenly;
 }
 
 .pen-drawings2{
-    display: grid;
-    grid-template-columns: 380px 350px 220px 370px 500px;
-    margin-left: 95px;
-    margin-right: 95px;
+    display: flex;
+    width: 100vw;
+   justify-content: space-evenly;
 }
 
 .names-row-one{
     display: grid;
-    grid-template-columns: 290px 270px 280px 290px 190px;
+    grid-template-columns: 290px 275px 290px 300px 190px;
     font-size: 20px;
-    margin-left: 90px;
+    margin-left: 85px;
 }
 
 .names-row-two{
     display: grid;
-    grid-template-columns: 375px 345px 240px 280px;
+    grid-template-columns: 390px 360px 270px 280px;
     font-size: 20px;
-    margin-left: 150px;
+    margin-left: 130px;
 }
 
 .dig-drawings2{
-    display: grid;
-    grid-template-columns: 220px 220px 220px 220px 220px 220px;
-    margin-left: 70px;
-    margin-right: 70px;
+    display: flex;
+    width: 100vw;
+   justify-content: space-evenly;
 }
 
 .names-row-one2{
-    display: grid;
-    grid-template-columns: 290px 310px 240px 320px 190px;
-    font-size: 20px;
-    margin-left: 77px;
+    display: flex;
+    width: 100vw;
+   justify-content: space-evenly;
 }
 
 
@@ -123,4 +120,59 @@ h1 {
     display: grid;
     font-size: 50px;
     margin-left: 500px;
+}
+
+.breakingbad{
+    float: left;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+
+.bb-text{
+    float: left;
+    margin-right: 26px;
+    font-size: 18px;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    border: solid 2px rgb(255, 255, 255);
+    text-align: justify;
+}
+
+.bb-text2{
+    float: right;
+    margin-right: 70px;
+    margin-left: 26px;
+    font-size: 18px;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    border: solid 2px rgb(255, 255, 255);
+    text-align: justify;
+}
+
+.bb-text3{
+    float: left;
+    margin-left: 70px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.purchaseoriginal{
+    float: left;
+    margin-left: 730px;
+    font-size: 18px;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    border: solid 2px rgb(255, 255, 255);
+    text-align: justify;
+}
+
+.purchaseprint{
+    float: right;
+    margin-right: 110px;
+    font-size: 18px;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    border: solid 2px rgb(255, 255, 255);
+    text-align: justify;
 }
