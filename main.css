@@ -23,3 +23,104 @@ h1 {
     font-size: 50px
 }
 
+
+.categories {
+    display: grid;
+    grid-template-columns: 3fr 3fr 2fr;
+    font-size: 20px;
+    margin-left: 170px;
+}
+
+.oil-acrylics {
+    float: right;
+    margin-right: 70px;
+    border: solid 10px rgb(200, 214, 149)
+}
+
+
+.digital-art {
+    float: left;
+    margin-left: 65px;
+    border: solid 10px rgb(200, 214, 149)
+}
+
+.pen-on-paper{
+    float: left;
+    margin-left: 70px;
+    border: solid 10px rgb(200, 214, 149)
+}
+
+.categories-pop{
+    display: grid;
+    font-size: 13px;
+    margin-left: 70px;
+}
+
+.pen-drawings{
+    display: grid;
+    grid-template-columns: 210px 350px 210px 370px 100px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.pen-drawings2{
+    display: grid;
+    grid-template-columns: 380px 350px 220px 370px 500px;
+    margin-left: 95px;
+    margin-right: 95px;
+}
+
+.names-row-one{
+    display: grid;
+    grid-template-columns: 290px 270px 280px 290px 190px;
+    font-size: 20px;
+    margin-left: 90px;
+}
+
+.names-row-two{
+    display: grid;
+    grid-template-columns: 375px 345px 240px 280px;
+    font-size: 20px;
+    margin-left: 150px;
+}
+
+.dig-drawings2{
+    display: grid;
+    grid-template-columns: 220px 220px 220px 220px 220px 220px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.names-row-one2{
+    display: grid;
+    grid-template-columns: 290px 310px 240px 320px 190px;
+    font-size: 20px;
+    margin-left: 77px;
+}
+
+
+.names-row-two2{
+    display: grid;
+    grid-template-columns: 165px 280px 210px 210px 190px 210px;
+    font-size: 20px;
+    margin-left: 135px;
+}
+
+.can-drawings{
+    display: grid;
+    grid-template-columns: 210px 350px 210px 370px 100px;
+    margin-left: 350px;
+}
+
+.names-row-one3{
+    display: grid;
+    grid-template-columns: 263px 269px 240px;
+    font-size: 20px;
+    margin-left: 385px;
+}
+
+.morecoming{
+    display: grid;
+    font-size: 50px;
+    margin-left: 500px;
+}
