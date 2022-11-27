@@ -14,10 +14,9 @@ body{
 }
 
 .container {
-    display: grid;
-    grid-template-columns: 5fr 5fr 5fr 5fr;
+    display: flex;
+    justify-content: space-evenly;
     font-size: 30px;
-    margin-left: 200px;
 }
 
 
@@ -80,51 +79,24 @@ body{
 }
 
 .gallery p{
-    display: grid;
-    grid-template-columns: 3fr 3fr 2fr;
+    display: flex;
+    justify-content: space-around;
     font-size: 20px;
-    margin-left: 170px;
     color: aliceblue;
 }
 
-
-
-
-.pen-on-paper-img{
-    float: left;
-    margin-left: 70px;
-    border: solid 10px rgb(200, 214, 149)
+.gallery-images{
+    display: flex;
+    width: 100vw;
+   justify-content: space-evenly;
 }
 
-.digital-art-img {
-    float: left;
-    margin-left: 65px;
-    border: solid 10px rgb(200, 214, 149)
-}
 
-.oil-acrylics-img {
-    float: right;
-    margin-right: 70px;
-    border: solid 10px rgb(200, 214, 149)
-}
 
-.digitalart{
-    margin-right: 430px;
+
+.pen-on-paper{
     font-size: 80px;
-    text-align: justify;
-    float: right;
-}
-
-
-
-
-
-
-
-.categories-pop{
-    display: grid;
-    font-size: 13px;
-    margin-left: 70px;
+    text-align: center
 }
 
 .pen-drawings{
@@ -133,64 +105,99 @@ body{
    justify-content: space-evenly;
 }
 
-.pen-drawings2{
+.pen-row-one{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-left: 80px;
+    margin-right: 70px;
+}
+
+.pen-drawings-two{
     display: flex;
     width: 100vw;
    justify-content: space-evenly;
 }
 
-.names-row-one{
-    display: grid;
-    grid-template-columns: 290px 275px 290px 300px 190px;
+.pen-row-two{
+    display: flex;
+    justify-content: space-between;
     font-size: 20px;
-    margin-left: 85px;
+    margin-left: 120px;
+    margin-right: 120px;
 }
 
-.names-row-two{
-    display: grid;
-    grid-template-columns: 390px 360px 270px 280px;
-    font-size: 20px;
-    margin-left: 130px;
+
+
+
+
+.digitalart h1{
+    font-size: 80px;
+    text-align: center
 }
 
-.dig-drawings2{
+.digitalart p{
+    display: grid;
+    font-size: 13px;
+    margin-left: 70px;
+}
+
+
+.dig-drawings{
     display: flex;
     width: 100vw;
    justify-content: space-evenly;
 }
 
-.names-row-one2{
+.dig-row-one{
     display: flex;
-    width: 100vw;
-   justify-content: space-evenly;
-}
-
-
-.names-row-two2{
-    display: grid;
-    grid-template-columns: 165px 280px 210px 210px 190px 210px;
     font-size: 20px;
-    margin-left: 135px;
+   justify-content: space-between;
 }
+
+
+.dig-row-two{
+    display: flex;
+   justify-content: space-between;
+    font-size: 20px;
+
+}
+
+
+
+
+
+.oil-acrylics{
+    font-size: 80px;
+    text-align: center
+}
+
 
 .can-drawings{
-    display: grid;
-    grid-template-columns: 210px 350px 210px 370px 100px;
-    margin-left: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
-.names-row-one3{
-    display: grid;
-    grid-template-columns: 263px 269px 240px;
+.can-row-one{
+    display: flex;
+    justify-content: space-between;
     font-size: 20px;
-    margin-left: 385px;
+    margin-left: 230px;
+    margin-right: 210px;
 }
 
 .morecoming{
-    display: grid;
     font-size: 50px;
-    margin-left: 500px;
+    text-align: center;
 }
+
+
+
+
+
+
 
 .breakingbad{
     float: left;
