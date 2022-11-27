@@ -1,3 +1,11 @@
+body{
+    background-image: url(Images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
 * {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -12,19 +20,66 @@
     margin-left: 200px;
 }
 
-.logo{
+
+
+
+.homepage img{
     float: left;
+    margin-left: 180px;
+    margin-right: 50px;
+}
+
+.homepage h1{
+    margin-left: 100px;
+    font-size: 80px;
+}
+
+.homepage p{
+    margin-left: 300px;
+        font-size: 18px;
+        color: rgb(255, 255, 255);
 }
 
 
 
-h1 {
-    color: rgb(200, 214, 149);
-    font-size: 50px
+
+
+.aboutme img{
+    float: left;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.aboutme h1{
+    margin-left: 670px;
+    font-size: 80px;
+    text-align: justify;
+}
+
+.aboutme p{
+    margin-left: 300px;
+    margin-right: 200px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.aboutme-logo{
+    float: left;
+    margin-left: 300px;
 }
 
 
-.categories {
+
+
+
+.gallery h1{
+    margin-left: 500px;
+    font-size: 80px;
+    text-align: justify;
+}
+
+.gallery p{
     display: grid;
     grid-template-columns: 3fr 3fr 2fr;
     font-size: 20px;
@@ -32,24 +87,39 @@ h1 {
     color: aliceblue;
 }
 
-.oil-acrylics {
-    float: right;
-    margin-right: 70px;
+
+
+
+.pen-on-paper-img{
+    float: left;
+    margin-left: 70px;
     border: solid 10px rgb(200, 214, 149)
 }
 
-
-.digital-art {
+.digital-art-img {
     float: left;
     margin-left: 65px;
     border: solid 10px rgb(200, 214, 149)
 }
 
-.pen-on-paper{
-    float: left;
-    margin-left: 70px;
+.oil-acrylics-img {
+    float: right;
+    margin-right: 70px;
     border: solid 10px rgb(200, 214, 149)
 }
+
+.digitalart{
+    margin-right: 430px;
+    font-size: 80px;
+    text-align: justify;
+    float: right;
+}
+
+
+
+
+
+
 
 .categories-pop{
     display: grid;
@@ -126,6 +196,8 @@ h1 {
     float: left;
     margin-left: 70px;
     margin-right: 70px;
+    width: 39%;
+    height: auto;
 }
 
 .breakingbad2022{
@@ -189,21 +261,44 @@ h1 {
 
 
 @media only screen and (max-width: 414px){
+    
+
 
     .breakingbad{
-        float: left;
-        margin-left: 70px;
-        margin-right: 70px;
-        width: 25%; 
-        height: auto;
+        margin-left: 20px;
+        margin-right: 20px;
     }
-    
     .breakingbad2022{
         float: left;
         margin-left: 70px;
         font-size: 30px;
         text-align: center;
 }
+
+.bb-text{
+    float: left;
+    margin-right: 26px;
+    font-size: 18px;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    border: solid 2px rgb(255, 255, 255);
+    text-align: justify;
+}
+
+.bb-text2{
+    float: right;
+    margin-right: 70px;
+    margin-left: 26px;
+    font-size: 18px;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    border: solid 2px rgb(255, 255, 255);
+    text-align: justify;
+}
+
+
+
+
 
 }
 
