@@ -128,6 +128,12 @@ h1 {
     margin-right: 70px;
 }
 
+.breakingbad2022{
+        float: left;
+        margin-left: 40px;
+    font-size: 50px;
+        text-align: center;
+}
 
 .bb-text{
     float: left;
@@ -176,3 +182,29 @@ h1 {
     border: solid 2px rgb(255, 255, 255);
     text-align: justify;
 }
+
+
+
+
+
+
+@media only screen and (max-width: 414px){
+
+    .breakingbad{
+        float: left;
+        margin-left: 70px;
+        margin-right: 70px;
+        width: 25%; 
+        height: auto;
+    }
+    
+    .breakingbad2022{
+        float: left;
+        margin-left: 70px;
+        font-size: 30px;
+        text-align: center;
+}
+
+}
+
+
