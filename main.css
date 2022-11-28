@@ -3,7 +3,8 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 100vh;
+        margin: 0%;
+        padding: 0%;
 }
 
 * {
@@ -269,11 +270,39 @@ body{
 
 @media only screen and (max-width: 414px){
     
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 18px;
+    }
+
+    .homepage img{
+        float: left;
+        margin-left: 30px;
+        margin-right: 10px;
+        width: 20%;
+        height: auto;
+    }
+
+    .homepage h1{
+        font-size: 38px;
+
+    }
+
+    .homepage p{
+        margin-left: 50px;
+            font-size: 14px;
+            color: rgb(255, 255, 255);
+    }
+
+
 
 
     .breakingbad{
         margin-left: 20px;
         margin-right: 20px;
+        width: 60%;
+        height: auto;
     }
     .breakingbad2022{
         float: left;
@@ -281,28 +310,6 @@ body{
         font-size: 30px;
         text-align: center;
 }
-
-.bb-text{
-    float: left;
-    margin-right: 26px;
-    font-size: 18px;
-    padding: 15px;
-    color: rgb(255, 255, 255);
-    border: solid 2px rgb(255, 255, 255);
-    text-align: justify;
-}
-
-.bb-text2{
-    float: right;
-    margin-right: 70px;
-    margin-left: 26px;
-    font-size: 18px;
-    padding: 15px;
-    color: rgb(255, 255, 255);
-    border: solid 2px rgb(255, 255, 255);
-    text-align: justify;
-}
-
 
 
 
