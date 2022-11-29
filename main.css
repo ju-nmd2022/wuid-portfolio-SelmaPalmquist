@@ -25,17 +25,20 @@ body{
 
 .homepage img{
     float: left;
-    margin-left: 180px;
+    margin-left: 150px;
     margin-right: 50px;
 }
 
 .homepage h1{
     margin-left: 100px;
     font-size: 80px;
+    margin-bottom: 10px;
+    margin-top: 200px;
 }
 
 .homepage p{
     margin-left: 300px;
+    margin-right: 350px;
         font-size: 18px;
         color: rgb(255, 255, 255);
 }
@@ -263,12 +266,42 @@ body{
     text-align: justify;
 }
 
+@media only screen and (max-width: 350px){
+
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 14px;
+    }
+
+    .homepage img{
+        float: left;
+        margin-left: 30px;
+        margin-right: 10px;
+        width: 15%;
+        height: auto;
+
+    }
+
+    .homepage h1{
+        font-size: 25px;
+        margin-top: 90px;
+        margin-right: 10px;
+
+    }
+
+    .homepage p{
+        margin-left: 30px;
+        margin-right: 30px;
+            font-size: 10px;
+            color: rgb(255, 255, 255);
+            margin-bottom: 400px;
+    }
 
 
 
 
-
-@media only screen and (max-width: 414px){
+@media only screen and (min-width: 350px) and (max-width: 428px){
     
     .container {
         display: flex;
@@ -280,23 +313,47 @@ body{
         float: left;
         margin-left: 30px;
         margin-right: 10px;
-        width: 20%;
+        width: 15%;
         height: auto;
+
     }
 
     .homepage h1{
-        font-size: 38px;
+        font-size: 40px;
+        margin-top: 90px;
+        margin-right: 30px;
 
     }
 
     .homepage p{
-        margin-left: 50px;
-            font-size: 14px;
+        margin-left: 30px;
+        margin-right: 30px;
+            font-size: 12px;
             color: rgb(255, 255, 255);
+            margin-bottom: 600px;
     }
 
 
 
+    .gallery h1{
+        font-size: 40px;
+        text-align: center;
+        margin-left: 0px;
+    }
+    
+    .gallery p{
+        display: flex;
+        justify-content: space-around;
+        font-size: 14px;
+        color: aliceblue;
+    }
+    
+    .gallery-images{
+        display: grid;
+        width: 100vw;
+        justify-content: space-evenly;
+        gap: 40px;
+    }
 
     .breakingbad{
         margin-left: 20px;
@@ -310,10 +367,216 @@ body{
         font-size: 30px;
         text-align: center;
 }
+}
 
 
+
+
+
+@media only screen and (min-width: 428px) and (max-width: 528px){
+
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 20px;
+    }
+
+    .homepage img{
+        float: left;
+        margin-left: 30px;
+        margin-right: 10px;
+        width: 15%;
+        height: auto;
+
+    }
+
+    .homepage h1{
+        font-size: 45px;
+        margin-top: 90px;
+
+    }
+
+    .homepage p{
+        margin-left: 60px;
+        margin-right: 100px;
+        margin-top: 30px;
+            font-size: 14px;
+            color: rgb(255, 255, 255);
+            margin-bottom: 600px;
+    }
+}
+
+
+
+
+
+@media only screen and (min-width: 528px) and (max-width: 620px){
+
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 25px;
+    }
+
+    .homepage img{
+        float: left;
+        margin-left: 40px;
+        margin-right: 20px;
+        width: 15%;
+        height: auto;
+
+    }
+
+    .homepage h1{
+        font-size: 55px;
+        margin-top: 90px;
+        margin-right: 40px;
+
+    }
+
+    .homepage p{
+        margin-left: 70px;
+        margin-right: 130px;
+            font-size: 16px;
+            color: rgb(255, 255, 255);
+    }
+}
+
+
+
+
+
+@media only screen and (min-width: 620px) and (max-width: 705px){
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 30px;
+    }
+
+    .homepage img{
+        float: left;
+        margin-left: 55px;
+        margin-right: 20px;
+        width: 15%;
+        height: auto;
+
+    }
+
+    .homepage h1{
+        font-size: 65px;
+        margin-top: 90px;
+        margin-right: 40px;
+
+    }
+
+    .homepage p{
+        margin-left: 90px;
+        margin-right: 150px;
+            font-size: 20px;
+            color: rgb(255, 255, 255);
+    }
 
 
 }
 
 
+
+
+@media only screen and (min-width: 705px) and (max-width: 900px){
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 30px;
+    }
+
+    .homepage img{
+        float: left;
+        margin-left: 80px;
+        margin-right: 40px;
+        width: 25%;
+        height: auto;
+
+    }
+
+    .homepage h1{
+        font-size: 70px;
+        margin-top: 120px;
+
+
+    }
+
+    .homepage p{
+        margin-left: 110px;
+        margin-right: 190px;
+            font-size: 16px;
+            color: rgb(255, 255, 255);
+            margin-top: 20px;
+    }
+
+}
+
+
+@media only screen and (min-width: 907px) and (max-width: 1000px){
+
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 30px;
+    }
+
+    .homepage img{
+        float: left;
+        margin-left: 90px;
+        margin-right: 20px;
+        width: 25%;
+        height: auto;
+
+    }
+
+    .homepage h1{
+        font-size: 80px;
+        margin-top: 160px;
+        margin-right: 70px;
+
+    }
+
+    .homepage p{
+        margin-left: 100px;
+        margin-right: 200px;
+            font-size: 18px;
+            color: rgb(255, 255, 255);
+    }
+}
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1100px){
+
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 30px;
+    }
+
+    .homepage img{
+        float: left;
+        margin-left: 130px;
+        margin-right: 30px;
+        width: 23%;
+        height: auto;
+
+    }
+
+    .homepage h1{
+        font-size: 80px;
+        margin-top: 200px;
+        margin-right: 80px;
+
+    }
+
+    .homepage p{
+        margin-left: 130px;
+        margin-right: 300px;
+            font-size: 18px;
+            color: rgb(255, 255, 255);
+    }
+}
