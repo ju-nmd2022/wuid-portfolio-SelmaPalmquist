@@ -2280,3 +2280,158 @@ height: auto;
         color: rgb(255, 255, 255); 
     }   
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+this is code for the to-do list that I have to save somewhere incase i need it
+* {
+    margin: 0;
+    font-family: 'georgia', serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #ff9a68;
+    color: #ffffff;
+}
+
+
+header{
+    padding: 2rem 1rem;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+#new-task-form{
+    display: flex;
+}
+
+input, button{
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+#new-task-input{
+    flex: 1 1 0%;
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-right: 1rem;
+    font-size: 20px;
+}
+
+#new-task-submit{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #c0693e;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#new-task-submit:hover{
+    opacity: 0.8;
+}
+
+#new-task-submit:active{
+    opacity: 0.6;
+}
+
+main{
+    flex: 1 1 0%;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+}
+
+.task-list{
+    padding: 1rem;
+}
+
+.task-list h2{
+font-size: 25px;
+margin-left: 100px;
+font-weight: 300;
+color: #ffffff;
+margin-bottom: 1rem;
+}
+
+#tasks .task{
+display: flex;
+margin-left: 100px;
+margin-right: 100px;
+justify-content: space-between;
+border: #ffffff;
+border-style: solid;
+border-width: 2px;
+padding: 1rem;
+border-radius: 5px;
+margin-bottom: 1rem;
+}
+
+#tasks .task .content .text{
+    font-size: 18px;
+    width: 100%;
+    display: block;
+    transition: 0.4s;
+}
+
+#tasks .task .content .text:not(:read-only){
+    color: gray;
+    
+}
+
+#tasks .task .content {
+    flex: 1 1 0%;
+}
+
+#tasks .task .actions{
+    display: flex;
+    margin: 0 -0.5rem;
+}
+
+.task .actions button{
+    cursor: pointer;
+    margin: 0 0.5rem;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #c0693e;
+    border-radius: 4px;
+    transition: 0.4s;
+}
+
+.task .actions button:hover{
+    opacity: 0.8;
+}
+
+.task .actions button:active{
+    opacity: 0.6;
+}
+
+.task .actions .delete{
+color: rgb(121, 22, 11);
+}
+
